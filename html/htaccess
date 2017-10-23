@@ -1,0 +1,4 @@
+DirectoryIndex welcome.php
+RewriteEngine On
+#RewriteRule ^(submit)/?$ submit.php [L]
+RewriteRule ^([A-Za-z0-9-]+)/?$ redirect.php?url=$1 [L]
